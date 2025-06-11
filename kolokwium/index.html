@@ -1,13 +1,111 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Najlepsze plaże w Polsce - Ranking 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 24 24">
+                    <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4Z"/>
+                </svg>
+                <span>Morze.pl</span>
+            </div>
+            <nav class="nav">
+                <a href="#ranking">Ranking</a>
+                <a href="#porady">Porady</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Najlepsze miejsca nad polskim morzem</h1>
+                <p>Ranking najpiękniejszych plaż 2024</p>
+                <a href="#ranking" class="btn">Zobacz ranking</a>
+            </div>
+        </section>
+
+        <section id="ranking" class="ranking">
+            <div class="container">
+                <h2>Ranking plaż 2024</h2>
+                <div class="grid">
+                    <article class="card featured">
+                        <div class="card-image">
+                            <span class="badge">#1</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Sopot</h3>
+                            <p>Najsłynniejsza plaża w Polsce z kultowym molo.</p>
+                            <div class="features">
+                                <span>🏖️ Molo</span>
+                                <span>🎭 Kultura</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-image">
+                            <span class="badge">#2</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Kołobrzeg</h3>
+                            <p>Uzdrowiskowy kurort z szeroką plażą.</p>
+                            <div class="features">
+                                <span>💆 SPA</span>
+                                <span>🏥 Uzdrowisko</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <div class="card-image">
+                            <span class="badge">#3</span>
+                        </div>
+                        <div class="card-content">
+                            <h3>Świnoujście</h3>
+                            <p>Najszersza plaża w Polsce.</p>
+                            <div class="features">
+                                <span>🏝️ Wyspa</span>
+                                <span>🏖️ Szeroka plaża</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="porady" class="tips">
+            <div class="container">
+                <h2>Porady wakacyjne</h2>
+                <div class="tips-grid">
+                    <div class="tip">
+                        <h3>🌞 Najlepszy czas</h3>
+                        <p>Lipiec-sierpień to szczyt sezonu, ale czerwiec oferuje lepsze ceny.</p>
+                    </div>
+                    <div class="tip">
+                        <h3>🏨 Noclegi</h3>
+                        <p>Rezerwuj z wyprzedzeniem i sprawdzaj opinie.</p>
+                    </div>
+                    <div class="tip">
+                        <h3>💰 Budżet</h3>
+                        <p>Planuj 200-400 zł dziennie na osobę.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Morze.pl - Ranking plaż polskich</p>
+        </div>
+    </footer>
+
     <script type="module" src="/src/main.js"></script>
-  </body>
+</body>
 </html>
