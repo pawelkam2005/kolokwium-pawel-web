@@ -11,8 +11,6 @@ node_modules
 dist
 dist-ssr
 *.local
-
-
 .vscode/*
 !.vscode/extensions.json
 .idea
@@ -29,3 +27,6 @@ dist/
 *.log
 .vscode/
 .idea/
+.DS_Store
+node_modules/
+dist/
